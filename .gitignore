@@ -1,0 +1,10 @@
+# Overwrite .gitignore with correct content
+echo house_env/ > .gitignore
+echo venv/ >> .gitignore
+echo -u/ >> .gitignore
+echo __pycache__/ >> .gitignore
+echo *.pyc >> .gitignore
+echo *.pyo >> .gitignore
+echo tempCodeRunnerFile.py >> .gitignore
+echo .vscode/ >> .gitignore
+echo data/ >> .gitignore
