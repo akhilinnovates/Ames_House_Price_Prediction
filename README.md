@@ -1,5 +1,7 @@
 # 🏡 HomePriceIQ — House Price Prediction App
 
+[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-red?logo=streamlit)](https://ameshousepriceprediction-gza76vvfsyhrivq2d436gw.streamlit.app/)
+
 A Machine Learning web application that predicts residential property prices
 using the Ames Housing Dataset, deployed with Streamlit.
 
