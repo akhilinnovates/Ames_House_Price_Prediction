@@ -145,6 +145,23 @@ A user-friendly dashboard built with Streamlit featuring:
 
 ---
 
+## 🌐 Live Demo
+
+The application is deployed on Streamlit Cloud and can be accessed here:
+
+🚀 **HomePriceIQ Live App**
+
+[https://ameshousepriceprediction-gza76vvfsyhrivq2d436gw.streamlit.app/](https://ameshousepriceprediction-gza76vvfsyhrivq2d436gw.streamlit.app/)
+
+### Features Available Online
+- 🏠 Interactive Dashboard
+- 🔮 Real-Time House Price Prediction
+- 📊 Market Analytics & Visualizations
+- 📂 Batch Predictions
+- ℹ️ Project Documentation
+
+---
+
 ## 🛠️ Technologies Used
 
 | Technology | Purpose |
