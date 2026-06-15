@@ -31,13 +31,23 @@ st.markdown("""
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap');
 
 html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
-#MainMenu, footer, header  { visibility: hidden; }
+#MainMenu {
+    visibility: hidden;
+}
+
+footer {
+    visibility: hidden;
+}
+
+header {
+    background: rgba(0,0,0,0);
+}
 .block-container { padding: 0 2rem 2rem 2rem !important; max-width: 1400px; }
 
 /* ── Sidebar ── */
 [data-testid="stSidebar"] {
     background: linear-gradient(170deg, #0f0c29 0%, #302b63 50%, #24243e 100%);
-    border-right: 1px solid rgba(255,255,255,0.07);
+    border-right: 1px solid rgba(255,255,255,0.07);        
 }
 [data-testid="stSidebar"] * { color: #e2e2f0 !important; }
 [data-testid="stSidebar"] .stRadio label {
@@ -49,7 +59,7 @@ html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
 /* ── Top header bar ── */
 .top-header {
     background: linear-gradient(90deg, #0f0c29 0%, #302b63 60%, #24243e 100%);
-    padding: 1.2rem 2rem; margin: -1rem -2rem 2rem -2rem;
+    padding: 1.2rem 2rem; margin: 0rem -2rem 2rem -2rem;
     display: flex; align-items: center; gap: 1rem;
     border-bottom: 1px solid rgba(255,255,255,0.08);
 }
